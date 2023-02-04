@@ -7,7 +7,7 @@ Hurricane is a tool that allow you to analyze most important method in a program
 
 Thanks to Hurricane, you will be able to prevent malicious code execution, and analyze the HTTP/HTTPS Traffic.
 
-Drag&Drop your file into Hurricane, and it will load your patched assembly.
+Drag&Drop your file into Hurricane, and it will load your patched assembly. **Remember to put Hurricane and your file in the same folder.**
 
 Hurricane:
 
@@ -85,6 +85,11 @@ How to use Config Manager:
 
 - DelayBeforeStart: int - Set the delay before loading the assembly.
 
+- FileArchitectur: string - Depends on your file architecture. "32" if it's 32Bit, "64" if it's 64Bit. Really important if you are using .DLL Injection option.
+
+# Known bugs
+
+- .DLL Injector may not work sometimes. This depends on your file architecture.
 
 # Do you want to contact me?
 
