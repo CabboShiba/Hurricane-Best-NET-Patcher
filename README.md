@@ -1,7 +1,7 @@
 # Hurricane-Best-NET-Patcher
 Hurricane - The best .NET Patcher &amp; Analyzer. Made by Cabbo.
 
-Hurricane is a tool that allow you to analyze most important method in a program.
+Hurricane is a tool that allow you to analyze most important method in a program. Please read Config Docs.
 
 # Why is it important
 
@@ -53,7 +53,7 @@ But, what if the file I'm trying to analyze, is protected by a Native Layer?
 
 No problem!
 
-Hurricane support .DLL Injection, and it will inject all the patches in your file.
+Hurricane supports .DLL Injection, and it will inject all the patches in your file.
 
 NOTE: Please put your file in the same Hurricane Folder, otherwise it will not work.
 
