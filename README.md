@@ -63,7 +63,7 @@ NOTE: Please put your file in the same Hurricane Folder, otherwise it will not w
 
 How to use Config Manager:
 
-- HookURl : bool - Set it to true if you want to modify the URL of WebRequest.Create();
+- HookURL : bool - Set it to true if you want to modify the URL of WebRequest.Create();
 
 - NewUrl: string - Put the new WebRequest.Create() URL.
 
