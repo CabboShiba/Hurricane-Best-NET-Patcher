@@ -77,7 +77,7 @@ How to use Config Manager:
 
 - InjectDLLFail: bool - Set it to true if you want to inject Hurricane .DLL, instead of loading it. This will work only if the normal loading method did not work. Set it to true if you are working on Native Layer.
 
--SaveStrings: bool - Set it to true if you want to save all dumped strings.
+- SaveStrings: bool - Set it to true if you want to save all dumped strings.
 
 - CustomHWID: string - You can set your new HWID. Hurricane will automatically spoof it.
 
