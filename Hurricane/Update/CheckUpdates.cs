@@ -10,7 +10,7 @@ namespace Hurricane.Update
 {
     internal class CheckUpdates
     {
-        private const string CurrentVersion = "1.0";
+        private const string CurrentVersion = "1.0\n";
         private static string DownloadedVersion = null;
         private const string Link = "https://raw.githubusercontent.com/CabboShiba/Hurricane-Best-NET-Patcher/main/CurrentVersion";
         private static WebClient WC;
