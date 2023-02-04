@@ -1,11 +1,13 @@
 # Hurricane-Best-NET-Patcher
 Hurricane - The best .NET Patcher &amp; Analyzer. Made by Cabbo.
 
-Hurricane is a tool that allow you to analyze most important method in a program. Please read Config Docs.
+Hurricane is a tool that allow you to analyze most important method in a program. Please read Config Docs before using it.
 
 # Why is it important
 
 Thanks to Hurricane, you will be able to prevent malicious code execution, and analyze the HTTP/HTTPS Traffic.
+
+Drag&Drop your file into Hurricane, and it will load your patched assembly.
 
 Hurricane:
 
