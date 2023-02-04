@@ -1,0 +1,15 @@
+{
+  "HookURL": false,
+  "NewUrl": null,
+  "UseHttpServer": false,
+  "HttpServerResponse": null,
+  "CustomHash": null,
+  "AllowProcessStart": false,
+  "SpoofAssembly": true,
+  "ShowStringEquals": false,
+  "InjectDLLFail": false,
+  "SaveStrings": true,
+  "CustomHWID": null,
+  "DelayBeforeStart": 3,
+  "FileArchitecture": "32"
+}
