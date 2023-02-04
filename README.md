@@ -27,7 +27,7 @@ Hurricane:
 
 - HWID Reader [You can also spoof your HWID].
 
-- Marshal.Copy [Used to prevent and block some checks - See ![DNSpy](https://github.com/CabboShiba/AntiDNSpyDetector)].
+- Marshal.Copy [Used to prevent and block some checks - See [DNSpy](https://github.com/CabboShiba/AntiDNSpyDetector)].
 
 - Process.Kill() [Really unstable. It doesn't work for now].
 
