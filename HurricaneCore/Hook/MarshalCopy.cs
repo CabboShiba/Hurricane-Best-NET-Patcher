@@ -16,7 +16,7 @@ namespace HurricaneCore.Hook
 
         private static string GetMethod = $"{HookedClass.FullName}.{HookedMethod}";
 
-   //     [HarmonyPatch(typeof(System.Runtime.InteropServices.Marshal), HookedMethod, new[] { typeof(IntPtr), typeof(byte[]), typeof(int), typeof(int) })]
+        [HarmonyPatch(typeof(System.Runtime.InteropServices.Marshal), HookedMethod, new[] { typeof(IntPtr), typeof(byte[]), typeof(int), typeof(int) })]
         class HookMarshal
         {
             static bool Prefix(IntPtr source, byte[] destination, int startIndex, int length)
