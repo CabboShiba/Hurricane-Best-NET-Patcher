@@ -29,7 +29,7 @@ Hurricane:
 
 - Marshal.Copy [Used to prevent and block some checks - See [DNSpy](https://github.com/CabboShiba/AntiDNSpyDetector)].
 
-- Process.Kill() [Really unstable. It doesn't work for now].
+- Process.Kill() [Really unstable. It doesn't work for now - Fixed: Expect a release soon].
 
 - Process.Start() [Block process from being started].
 
