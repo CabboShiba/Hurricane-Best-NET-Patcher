@@ -9,6 +9,7 @@ Thanks to Hurricane, you will be able to prevent malicious code execution, and a
 
 Drag&Drop your file into Hurricane, and it will load your patched assembly. **Remember to put Hurricane and your file in the same folder.**
 
+In V1.1 I have also added https://xreactor.org/ Auth Bypass. Enable it in config.
 Hurricane:
 
 ![image](https://user-images.githubusercontent.com/92642446/216778443-f27ba51c-97e4-4267-b96f-7c3ac4426d77.png)
@@ -44,6 +45,28 @@ Hurricane:
 - Thread.Sleep();
 
 - WebRequest.Create() [Can intercept HTTP/HTTPS URL].
+
+- Process.GetProcesses()
+
+- Process.GetProcessesByName()
+
+- File.Exists()
+
+- File.ReadAllBytes()
+
+- File.ReadAllText()
+
+- WebClient.DownloadString()
+
+- WebClient.DownloadData()
+
+- Registry.GetValue()
+
+- Registry.SetValue()
+
+- String.Contains()
+
+- Encoding.GetString
 
 # HttpServer
 
@@ -86,6 +109,10 @@ How to use Config Manager:
 - DelayBeforeStart: int - Set the delay before loading the assembly.
 
 - FileArchitectur: string - Depends on your file architecture. "32" if it's 32Bit, "64" if it's 64Bit. Really important if you are using .DLL Injection option.
+
+- XReactor Bypass: bool - Set it to true if you want to bypass https://xreactor.org/ Auth System.
+
+- FileExists: bool - Set it to true if File.Exists should return always true.
 
 # Known bugs
 
