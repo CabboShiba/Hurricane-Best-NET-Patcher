@@ -13,7 +13,7 @@ namespace HurricaneCore.Hook.SaveStrings
             }
             try
             {
-                File.AppendAllText(Environment.CurrentDirectory + @"\Strings.txt", String + "\n");
+                System.IO.File.AppendAllText(System.Environment.CurrentDirectory + @"\Strings.txt", String + "\n");
             }
             catch(Exception ex)
             {

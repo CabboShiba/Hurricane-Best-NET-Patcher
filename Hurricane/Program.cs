@@ -21,6 +21,7 @@ namespace Hurricane
             try
             {
                 Utils.File = args[0];
+                //Utils.File = Environment.CurrentDirectory + @"\HurricaneTest.exe";
                 FileInfo info = new FileInfo(Utils.File);
                 if (info.Extension != ".exe")
                 {
@@ -37,7 +38,7 @@ namespace Hurricane
             int Delay = HurricaneCore.Hook.Config.Config.ConfigManager.DelayBeforeStart;
             if(Delay < 0)
             {
-                Delay = 3;
+                Delay = 0;
             }
             for (int i = Delay; i >= 0; i--)
             {

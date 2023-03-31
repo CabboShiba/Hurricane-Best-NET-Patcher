@@ -10,6 +10,8 @@
   "InjectDLLFail": false,
   "SaveStrings": true,
   "CustomHWID": null,
-  "DelayBeforeStart": 3,
-  "FileArchitecture": "32"
+  "DelayBeforeStart": 0,
+  "FileArchitecture": "32",
+  "XReactorBypass": true,
+  "FileExists": true
 }

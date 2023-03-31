@@ -16,7 +16,6 @@ namespace HurricaneCore
         {
             Logger.Log("Press enter to leave...", "Hurricane", ConsoleColor.Cyan);
             Console.ReadLine();
-            Process.GetCurrentProcess().Kill();
         }
 
         private static Random Random = new Random();

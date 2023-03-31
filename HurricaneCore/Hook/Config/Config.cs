@@ -5,6 +5,7 @@ using System.Threading;
 using static HurricaneCore.Logger;
 using System.IO;
 using Newtonsoft.Json;
+using System.ComponentModel;
 
 namespace HurricaneCore.Hook.Config
 {
@@ -13,8 +14,8 @@ namespace HurricaneCore.Hook.Config
         private static string ConfigPath;
         public static void ProcessConfig()
         {
-            ConfigPath = Environment.CurrentDirectory + @"\Config.json";
-            if (!File.Exists(ConfigPath))
+            ConfigPath = System.Environment.CurrentDirectory + @"\Config.json";
+            if (!System.IO.File.Exists(ConfigPath))
             {
                 var Patch = new PatchConfig
                 {
@@ -22,13 +23,14 @@ namespace HurricaneCore.Hook.Config
                     FileArchitecture = "32",
                     SpoofAssembly = true,
                     SaveStrings = true,
-                    DelayBeforeStart = 3,
+                    DelayBeforeStart = 0,
+                    XReactorBypass = true,
                 };
                 string JsonSerialized = JsonConvert.SerializeObject(Patch, Formatting.Indented);
-                File.WriteAllText(ConfigPath, JsonSerialized);
+                System.IO.File.WriteAllText(ConfigPath, JsonSerialized);
             }
 
-            ConfigManager = JsonConvert.DeserializeObject<PatchConfig>(File.ReadAllText(ConfigPath));
+            ConfigManager = JsonConvert.DeserializeObject<PatchConfig>(System.IO.File.ReadAllText(ConfigPath));
 
             if (ConfigManager.UseHttpServer == true)
             {
@@ -76,8 +78,9 @@ namespace HurricaneCore.Hook.Config
             public bool SaveStrings { get; set; }
             public string CustomHWID { get; set; }
             public int DelayBeforeStart { get; set; }
-
             public string FileArchitecture { get; set;}
+            public bool XReactorBypass { get; set; }
+            public bool FileExists { get; set; }
         }
 
         public class Url

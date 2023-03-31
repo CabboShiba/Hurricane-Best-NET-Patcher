@@ -1,0 +1,24 @@
+C:\Users\stefa\OneDrive\Desktop\Hurricane\Hurricane\bin\Debug\HurricaneCore.dll.config
+C:\Users\stefa\OneDrive\Desktop\Hurricane\Hurricane\bin\Debug\HurricaneCore.dll
+C:\Users\stefa\OneDrive\Desktop\Hurricane\Hurricane\bin\Debug\HurricaneCore.pdb
+C:\Users\stefa\OneDrive\Desktop\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.csproj.AssemblyReference.cache
+C:\Users\stefa\OneDrive\Desktop\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.csproj.CoreCompileInputs.cache
+C:\Users\stefa\OneDrive\Desktop\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.csproj.CopyComplete
+C:\Users\stefa\OneDrive\Desktop\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.dll
+C:\Users\stefa\OneDrive\Desktop\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.pdb
+C:\Users\stefa\OneDrive\Desktop\CSharp Projects\Hurricane\Hurricane\bin\Debug\HurricaneCore.dll.config
+C:\Users\stefa\OneDrive\Desktop\CSharp Projects\Hurricane\Hurricane\bin\Debug\HurricaneCore.dll
+C:\Users\stefa\OneDrive\Desktop\CSharp Projects\Hurricane\Hurricane\bin\Debug\HurricaneCore.pdb
+C:\Users\stefa\OneDrive\Desktop\CSharp Projects\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.csproj.AssemblyReference.cache
+C:\Users\stefa\OneDrive\Desktop\CSharp Projects\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.csproj.CoreCompileInputs.cache
+C:\Users\stefa\OneDrive\Desktop\CSharp Projects\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.csproj.CopyComplete
+C:\Users\stefa\OneDrive\Desktop\CSharp Projects\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.dll
+C:\Users\stefa\OneDrive\Desktop\CSharp Projects\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.pdb
+C:\Users\stefa\OneDrive\Desktop\Important Projects\Hurricane\Hurricane\bin\Debug\HurricaneCore.dll.config
+C:\Users\stefa\OneDrive\Desktop\Important Projects\Hurricane\Hurricane\bin\Debug\HurricaneCore.dll
+C:\Users\stefa\OneDrive\Desktop\Important Projects\Hurricane\Hurricane\bin\Debug\HurricaneCore.pdb
+C:\Users\stefa\OneDrive\Desktop\Important Projects\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.csproj.AssemblyReference.cache
+C:\Users\stefa\OneDrive\Desktop\Important Projects\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.csproj.CoreCompileInputs.cache
+C:\Users\stefa\OneDrive\Desktop\Important Projects\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.csproj.CopyComplete
+C:\Users\stefa\OneDrive\Desktop\Important Projects\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.dll
+C:\Users\stefa\OneDrive\Desktop\Important Projects\Hurricane\HurricaneCore\obj\Debug\HurricaneCore.pdb

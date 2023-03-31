@@ -2,10 +2,12 @@
 using Hurricane.Injection;
 using System;
 using System.Collections.Generic;
+using System.Configuration.Assemblies;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
+
 using System.Text;
 using System.Threading.Tasks;
 using static HurricaneCore.Logger;
@@ -22,8 +24,6 @@ namespace Hurricane
                 LoadedAssembly = Assembly.LoadFile(Path.GetFullPath(Utils.File));
                 var paraminfo = LoadedAssembly.EntryPoint.GetParameters();
                 parameters = new object[paraminfo.Length];
-                //  Harmony patch = new Harmony("HurricanePatcher_https://github.com/CabboShiba");
-                //  patch.PatchAll(Assembly.GetExecutingAssembly());
                 HurricaneCore.MainClass.MainMethod(null);
                 LoadedAssembly.EntryPoint.Invoke(null, parameters);
                 return true;

@@ -16,7 +16,7 @@ namespace Hurricane
         {
             Log("Press enter to leave...", "HURRICANE", ConsoleColor.Cyan);
             Console.ReadLine();
-            Process.GetCurrentProcess().Kill();
+            //Process.GetCurrentProcess().Kill();
         }
 
         private static Random Random = new Random();
