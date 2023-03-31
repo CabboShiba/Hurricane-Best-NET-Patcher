@@ -7,6 +7,8 @@ Hurricane is a tool that allow you to analyze most important method in a program
 
 Thanks to Hurricane, you will be able to prevent malicious code execution, and analyze the HTTP/HTTPS Traffic.
 
+In fact, thanks to HarmonyLib, Hurrican will intercept every important method, that could harm your PC (like starting malicious process, reading personal information, downloading malicious code from web, etc. etc.).
+
 Drag&Drop your file into Hurricane, and it will load your patched assembly. **Remember to put Hurricane and your file in the same folder.**
 
 In V1.1 I have also added https://xreactor.org/ Auth Bypass. Enable it in config.
