@@ -9,7 +9,7 @@
   "ShowStringEquals": false,
   "InjectDLLFail": false,
   "SaveStrings": true,
-  "CustomHWID": null,
+  "CustomHWID": "https://github.com/CabboShiba/",
   "DelayBeforeStart": 0,
   "FileArchitecture": "32",
   "XReactorBypass": true,
